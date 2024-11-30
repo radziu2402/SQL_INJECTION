@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Injection Example - Zabezpieczone</title>
+</head>
+<body>
+    <h1>Logowanie (Zabezpieczone przed SQL Injection)</h1>
+    <form action="/secure" method="POST">
+        <label for="username">Nazwa użytkownika:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Zaloguj">
+    </form>
+</body>
+</html>
